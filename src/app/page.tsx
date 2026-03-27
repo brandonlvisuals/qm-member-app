@@ -18,7 +18,7 @@ export default function Home() {
               <span className="text-[#B68D96]">Var utan gränser.</span>
             </h1>
             <p className="text-[#a3a3a3] text-lg sm:text-xl leading-relaxed mb-10 max-w-xl">
-              Quality Movement är parkourföreningen med Stockholms enda parkourhall. Vi erbjuder klasser för alla nivåer – från nybörjare till avancerade utövare.
+              Quality Movement är parkourföreningen med Stockholms främsta parkourhall. Vi erbjuder klasser för alla nivåer – från nybörjare till avancerade utövare.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -40,12 +40,11 @@ export default function Home() {
 
       {/* Stats */}
       <section className="border-y border-[#2a2a2a]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-2 sm:grid-cols-4 gap-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-2 sm:grid-cols-3 gap-8">
           {[
             { value: '500+', label: 'Aktiva medlemmar' },
             { value: '12+', label: 'Klasser per vecka' },
             { value: '6', label: 'Instruktörer' },
-            { value: '2008', label: 'Grundat' },
           ].map((stat) => (
             <div key={stat.label} className="text-center sm:text-left">
               <div className="text-3xl font-bold text-[#B68D96]">{stat.value}</div>
