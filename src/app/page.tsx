@@ -46,7 +46,7 @@ export default function Home() {
             { value: '12+', label: 'Klasser per vecka' },
             { value: '6', label: 'Instruktörer' },
           ].map((stat) => (
-            <div key={stat.label} className="text-center sm:text-left">
+            <div key={stat.label} className="text-center">
               <div className="text-3xl font-bold text-[#B68D96]">{stat.value}</div>
               <div className="text-sm text-[#737373] mt-1">{stat.label}</div>
             </div>
