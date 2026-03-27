@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0a0a0a"/>
+  <rect width="512" height="512" rx="96" fill="#B68D96" opacity="0.15"/>
+  <text
+    x="256"
+    y="300"
+    font-family="Arial Narrow, Arial, sans-serif"
+    font-weight="700"
+    font-size="220"
+    fill="#B68D96"
+    text-anchor="middle"
+    letter-spacing="-8"
+  >QM</text>
+</svg>

@@ -20,6 +20,15 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: 'Quality Movement – Parkourförening',
   description: 'Boka klasser, hantera ditt medlemskap och se schema för Quality Movement parkourförening.',
+  manifest: '/manifest.webmanifest',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'black-translucent',
+    title: 'Quality Movement',
+  },
+  icons: {
+    apple: '/icon.svg',
+  },
 };
 
 export default function RootLayout({
@@ -28,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="sv" className={`${oswald.variable} ${openSans.variable}`}>
+    <html lang="sv" className={`${oswald.variable} ${openSans.variable}`} style={{ colorScheme: 'dark' }}>
       <body className="min-h-screen flex flex-col bg-[#0a0a0a] text-white antialiased">
         <AuthProvider>
           <Navbar />
