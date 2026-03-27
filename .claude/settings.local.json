@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install poppler)",
+      "Bash(python3 -c \"import fitz; print\\(''pymupdf ok''\\)\")",
+      "Bash(python3 -c \"import pdfplumber; print\\(''pdfplumber ok''\\)\")",
+      "Bash(strings \"/Volumes/PANTHEON/08_PARKOUR/02 _Template & Systems/QMPK __ Behance grafisk profil.pdf\")",
+      "Bash(xargs sed -i '' 's/#f97316/#B68D96/g; s/#ea6c10/#9e7880/g')"
+    ]
+  }
+}
