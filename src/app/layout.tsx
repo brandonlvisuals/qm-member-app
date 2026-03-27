@@ -20,7 +20,7 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: 'Quality Movement – Parkourförening',
   description: 'Boka klasser, hantera ditt medlemskap och se schema för Quality Movement parkourförening.',
-  manifest: '/manifest.webmanifest',
+  manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
